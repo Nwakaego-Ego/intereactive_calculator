@@ -73,6 +73,11 @@ const Main = () => {
         >
           Calculate
         </button>
+        {/* <div className="text-red-600 font-bold text-center mb-2">{error}</div>
+        <div className="text-center">Initial Price: {initialPrice}</div>
+        <div className="text-center">Discounted Price: {discountedPrice}</div>
+        <div className="text-center">Tax Percentage: {taxPercentage}</div>
+        <div className="text-center">Final Amount: {finalPrice}</div> */}
         <div className="text-red-600 font-bold text-center mb-2">{error}</div>
         <div className="text-center">Initial Price: {initialPrice}</div>
         <div className="text-center">Discounted Price: {discountedPrice}</div>
